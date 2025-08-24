@@ -1,0 +1,26 @@
+{
+  "homepage": "https://VikasAmlaha.github.io/react-parcel-app",
+  "name": "react-parcel-app",
+  "version": "1.0.0",
+  "description": "",
+
+
+  "scripts": {
+  "start": "parcel src/index.html",
+  "build": "parcel build src/index.html --dist-dir build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.15.4"
+  }
+}
