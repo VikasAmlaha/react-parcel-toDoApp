@@ -2,8 +2,21 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
+  text-align: center;
 }
 
 h1 {
-  color: darkblue;
+  color: rgb(0, 0, 9);
+  text-align: center;
+}
+
+ol {
+  color: rgb(0, 0, 9);
+  text-align: center;
+}
+
+.main {
+  color: rgb(0, 0, 9);
+  text-align: center;
+
 }
